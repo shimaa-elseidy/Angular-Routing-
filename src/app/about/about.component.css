@@ -1,0 +1,31 @@
+.about
+{
+    background-color: #1ABC9C;
+    height: 85vh;
+    overflow: hidden;
+}
+.icon-With-Lines
+{
+    display: flex;
+    align-items: center;
+}
+.line
+{
+    flex-grow: 1;
+    height: 5px;
+    background-color: #fff;
+    
+}
+.line.left
+{
+    margin-right: 10px;
+}
+.line.right
+{
+    margin-left: 10px;
+}
+h2
+{
+    font-weight: 500;
+    font-size: 70px;
+}

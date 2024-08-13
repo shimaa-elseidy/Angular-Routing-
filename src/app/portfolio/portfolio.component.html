@@ -1,0 +1,91 @@
+<section
+class="portfolio d-flex justify-content-center position-relative my-3 py-3"
+>
+<div>
+<h2>portfolio component</h2>
+<div class="icon-With-Lines my-3">
+      <div class="line left"></div>
+      <i class="fa fa-star"></i>
+      <div class="line right"></div>
+</div>
+<div class="container">
+        <div class="row g-5">
+        <div class="col-md-4 col-sm-12">
+        <div class="position-relative item" (click)="open('/poert1.png')">
+        <img src="../../assets/poert1.png" class="w-100 rounded-3" alt="" />
+        <div
+        class="rounded-3 d-flex align-items-center justify-content-center lightLayerContent "
+        >
+        <i class="fas fa-plus fa-3x text-white"></i>
+        </div>
+        </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+        <div class="position-relative item" (click)="open('/port2.png')">
+        <img src="../../assets/port2.png" class="w-100 rounded-3" alt="" />
+        <div
+        class="rounded-3 d-flex align-items-center justify-content-center lightLayerContent "
+        >
+        <i class="fas fa-plus fa-3x text-white"></i>
+        </div>
+        </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+        <div class="position-relative item" (click)="open('/port3.png')">
+        <img src="../../assets/port3.png" class="w-100 rounded-3" alt="" />
+        <div
+        class="rounded-3 d-flex align-items-center justify-content-center lightLayerContent "
+        >
+        <i class="fas fa-plus fa-3x text-white"></i>
+        </div>
+        </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+        <div class="position-relative item" (click)="open('/poert1.png')">
+        <img src="../../assets/poert1.png" class="w-100 rounded-3" alt="" />
+        <div
+        class="rounded-3 d-flex align-items-center justify-content-center lightLayerContent "
+        >
+        <i class="fas fa-plus fa-3x text-white"></i>
+        </div>
+        </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+        <div class="position-relative item" (click)="open('/port2 (1).png')">
+        <img
+        src="../../assets/port2 (1).png"
+        class="w-100 rounded-3"
+        alt=""
+        />
+        <div
+        class="rounded-3 d-flex align-items-center justify-content-center lightLayerContent "
+        >
+        <i class="fas fa-plus fa-3x text-white"></i>
+        </div>
+        </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+        <div class="position-relative item" (click)="open('/port3 (1).png')">
+        <img
+        src="../../assets/port3 (1).png"
+        class="w-100 rounded-3"
+        alt=""
+        />
+        <div
+        class="rounded-3 d-flex align-items-center justify-content-center lightLayerContent "
+        >
+        <i class="fas fa-plus fa-3x text-white"></i>
+        </div>
+        </div>
+        </div>
+</div>
+</div>
+@if (isClicked == true) {
+<div class="lightContainer" (click)="close()">
+<div class="lightContent">
+        <img [src]="imgSrc" class="rounded-3 w-100" alt="#" />
+</div>
+</div>
+}
+</div>
+</section>
